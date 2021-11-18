@@ -299,9 +299,13 @@
      border-color: var(--gradient-1) !important;
 }
  #shoutbox .entry div {
-     background: var(--background-floating);
+     background-color: var(--background-floating);
      border-top: var(--border);
      border-bottom: 1px solid var(--background-secondary);
+}
+.sellix_template, .sellix_template div {
+    background-color: #4f2b73 !important;
+  	border: none !important;
 }
  #shoutbox .user {
      border-right: var(--border);
