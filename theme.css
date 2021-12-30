@@ -16,7 +16,7 @@
      --btn: #2323237a;
      --btn-hover: var(--border-color);
 }
- .heaven_rank {
+.heaven_rank {
      background-clip: border-box;
      -webkit-background-clip: text;
      text-shadow: 0 0 5px #c8378d;
@@ -67,6 +67,9 @@
      border-radius: 50% !important;
      width: 130px;
      height: 130px;
+   	 background: #212121cc;
+     border: 4px solid var(--gradient-1);
+     box-shadow: 0px 4px 7px black;
 }
  .drop-nav {
      box-shadow: 0px 4px 20px 0px #080808;
@@ -362,11 +365,8 @@
  .post-content {
      background: var(--background-floating);
 }
- .post-author {
-     background: var(--background-light);
-}
- .post-usertitle {
-     background-color: var(--background-floating-light);
+.post_author_wrapper, .post-author {
+    background: var(--background-light);
 }
  .post-row .post-icon, .card-body {
      background: var(--background-floating);
@@ -376,6 +376,17 @@
 }
  .post-set {
      border: none;
+}
+.post-usertitle {
+    background-color: var(--background-light);
+    border-bottom: var(--border);
+}
+.postbit-label, .ceo {
+ 	background-color: var(--background-floating); 
+}
+.postbit_bg:before {
+    content: '';
+    background-image: linear-gradient(to bottom,transparent,var(--background-light));
 }
  .group-rank .header {
      padding: 7px !important;
@@ -433,3 +444,7 @@
  .cke_wysiwyg_frame, .cke_wysiwyg_div {
      background-color: var(--background-floating) !important;
 }
+.tcat {
+     padding: 5px 12px; 
+}
+em { padding-left: 3px; }
