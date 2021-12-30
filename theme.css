@@ -471,3 +471,6 @@ em { padding-right: 3px; }
  	padding: 0; 
   	padding-bottom: 10px;
 }
+.grid_layout .row .icon {
+  	filter: invert(100%);
+}
