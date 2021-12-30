@@ -16,7 +16,7 @@
      --btn: #2323237a;
      --btn-hover: var(--border-color);
 }
-.heaven_rank {
+ .heaven_rank {
      background-clip: border-box;
      -webkit-background-clip: text;
      text-shadow: 0 0 5px #c8378d;
@@ -448,3 +448,26 @@
      padding: 5px 12px; 
 }
 em { padding-right: 3px; }
+.grid_layout .forum {
+	background-color: var(--background-floating) !important;
+  	border-radius: var(--radius);
+}
+.grid_layout .forum_stats {
+	border-radius: var(--radius);
+  	background: linear-gradient(var(--background-floating-alt), var(--background-floating-alt));
+  	margin-right: 2px;
+  	width: fit-content !important;
+  	padding: 4px 7px !important;
+}
+.grid_layout .forum_stats {
+	top: 0;
+  	right: -2px;
+    font-weight: 700;
+}
+.grid_layout .stats-count {
+	font-size: 14px !important;
+}
+.grid_layout .last_post {
+ 	padding: 0; 
+  	padding-bottom: 10px;
+}
