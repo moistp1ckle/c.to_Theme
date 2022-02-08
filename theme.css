@@ -474,3 +474,6 @@ em { padding-right: 3px; }
 .grid_layout .row .icon {
   	filter: invert(100%);
 }
+.vouch_indicator {
+    background-color: var(--background-floating) !important;
+}
