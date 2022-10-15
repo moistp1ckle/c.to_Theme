@@ -16,7 +16,7 @@
      --btn: #2323237a;
      --btn-hover: var(--border-color);
 }
- .heaven_rank {
+.heaven_rank {
      background-clip: border-box;
      -webkit-background-clip: text;
      text-shadow: 0 0 5px #c8378d;
@@ -113,7 +113,7 @@
      border-top: var(--border);
      background-color: var(--background-floating) !important;
 }
-  .thead, .grid_layout .thead {
+ .thead, .grid_layout .thead {
      text-align: center;
      color: #fff;
      padding: 5px;
@@ -474,6 +474,29 @@ em { padding-right: 3px; }
 .grid_layout .row .icon {
   	filter: invert(100%);
 }
+.deleted_post_hidden {
+    border-top: var(--border);
+    padding: 6px 14px;
+}
 .vouch_indicator {
     background-color: var(--background-floating) !important;
+}
+
+blockquote {
+    background: #1f1f1f !important;
+}
+
+/* mybb link hover effect */
+.mycode_url:hover span, .mycode_url:hover {
+    text-decoration: underline !important;
+}
+
+/* slimmer shoutbox */
+#shoutbox .entry>div {
+  vertical-align: middle;padding:3px 5px;
+}
+
+/* row variation */
+tr.inline_row:nth-child(even) td {
+    background-color: var(--background-light) !important;
 }
