@@ -16,24 +16,6 @@
      --btn: #2323237a;
      --btn-hover: var(--border-color);
 }
-:root{
-    --gradient-1: rgb(167 21 21);
-    --gradient-2: rgb(118 13 13);
-    --gradient-3: rgb(87 12 12);
-    --gradient-4: rgb(128 0 0 / 24%);
-     --background-main: #0d0d0d;
-     --background-secondary: #111111;
-     --background-light: #151515;
-     --background-floating: #191919;
-     --background-floating-alt: #212121;
-     --background-floating-light: #181818;
-     --border-color: #232323;
-     --border: 1px solid var(--border-color);
-     --radius: 10px;
-     --banner-padding: 20px;
-     --btn: #2323237a;
-     --btn-hover: var(--border-color);
-}
  .heaven_rank {
      background-clip: border-box;
      -webkit-background-clip: text;
