@@ -502,6 +502,14 @@ blockquote {
 tr.inline_row:nth-child(even) td {
     background-color: var(--background-light) !important;
 }
+/* shoutbox entry variation */
+#shoutbox .entry:nth-last-child(odd) div {
+  background-color: var(--background-light);
+}
+#shoutbox .body { border: var(--border); }
+#shoutbox .entry:first-of-type div {
+  border-top-color:transparent;
+}
 
 /* fix bitcoin address alignment */
 .field_6 {
