@@ -303,7 +303,7 @@
      border-color: var(--gradient-1) !important;
 }
  #shoutbox .entry div {
-     background-color: var(--background-floating);
+     background-color: var(--background-floating) !important;
      border-top: var(--border);
      border-bottom: 1px solid var(--background-secondary);
 }
@@ -503,8 +503,9 @@ tr.inline_row:nth-child(even) td {
     background-color: var(--background-light) !important;
 }
 /* shoutbox entry variation */
-#shoutbox .entry:nth-last-child(odd) div {
-  background-color: var(--background-light);
+#shoutbox .window .entry { background-color: var(--background-floating) !important; }
+#shoutbox .entry:nth-last-child(odd) div, #shoutbox .entry:nth-last-child(odd) {
+  background-color: var(--background-light) !important;
 }
 /* shoutbox updates */
 #shoutbox .body { border: var(--border); }
