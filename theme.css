@@ -15,9 +15,10 @@
      --banner-padding: 20px;
      --btn: #2323237a;
      --btn-hover: var(--border-color);
-} .heaven_rank {
-     background-clip: border-box;
-     -webkit-background-clip: text;
+}
+.heaven_rank {
+    background-clip: border-box,text;
+    -webkit-background-clip: border-box,text;
      text-shadow: 0 0 5px #c8378d;
      background-image: url(https://static.cracked.to/images/bg1.gif),linear-gradient( 45deg,#fddd00 0,#da00ff 100%,#fff);
      -webkit-text-fill-color: transparent;
